@@ -1,0 +1,43 @@
+.container{
+    text-align: center;
+}
+
+.col-lg-12{
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    margin-left: 25%;
+    padding-top: 2%;
+    background-color: rgb(237, 95, 95);
+    border-radius: 20px;
+    transition: box-shadow .2s;
+}
+.col-lg-12:hover {
+    box-shadow: 0 0 11px rgb(42, 37, 37);
+}
+
+.guessNum{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    background-color: bisque;
+    border-radius: 20px;
+    transition: box-shadow .2s;
+}
+.guessNum:hover {
+    box-shadow: 0 0 11px rgb(42, 37, 37);
+}
+
+.sub{
+    height: 30px;
+    border-radius: 30%;
+    margin-top: 2%;
+    transition: box-shadow .2s;
+    border: none;
+    background-color: rgb(236, 106, 106);
+}
+.sub:hover {
+    box-shadow: 0 0 11px rgb(42, 37, 37);
+}
