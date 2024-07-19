@@ -18,6 +18,6 @@ document.getElementById("submitguess").onclick = function(){
 
     else{
         guesses++
-        alert(`lease enter smaller number`)
+        alert(`Please enter smaller number`)
     }
 }
